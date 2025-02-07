@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header with Navigation -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Honda Logo">
+            </a>
+        </div>
+    
+        <!-- Hamburger Icon -->
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">☰</div>
+    
+        <!-- Navigation Menu -->
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+    
+                <li class="dropdown">
+                    <a href="models.html">MODELS <img src="https://www.honda.com.my/img/interface/triangle-down-red.png" alt=""></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#city-details">CITY</a></li>
+                        <li><a href="#cityhatchback-details">CITY HATCHBACK</a></li>
+                        <li><a href="#civic-details">CIVIC</a></li>
+                        <li><a href="#crv-details">CR-V</a></li>
+                        <li><a href="#hrv-details">HR-V</a></li>
+                        <li><a href="#wrv-details">WR-V</a></li>
+                        <li><a href="#typer-details">TYPE R</a></li>
+                    </ul>
+                </li>
+    
+                <li><a href="news.html">NEWS</a></li>
+    
+                <!-- About Us Dropdown -->
+                <li class="dropdown">
+                    <a href="about.html">ABOUT US <img src="https://www.honda.com.my/img/interface/triangle-down-red.png" alt=""></a>
+                    <ul class="dropdown-content">
+                        <li><a href="about.html#founder">THE FOUNDER</a></li>
+                        <li><a href="about.html#history">HISTORY</a></li>
+                        <li><a href="about.html#achievements">ACHIEVEMENTS</a></li>
+                        <li><a href="about.html#awards">AWARDS</a></li>
+                        <li><a href="about.html#technology">OUR TECHNOLOGY</a></li>
+                    </ul>
+                </li>
+    
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    
+        <div class="search">
+            <input type="text" placeholder="Search...">
+        </div>
+    </header>    
+
+    <!-- Hero Section -->
+<section class="hero">
+    <div class="hero-overlay"></div> <!-- Added overlay -->
+    <video class="hero-video" autoplay muted loop>
+        <source src="videos/hero.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="hero-content">
+        <h1>Explore Our Latest Models</h1>
+        <p>Discover the best of Honda - performance, reliability, and design.</p>
+        <a href="models.html" class="cta-button">EXPLORE MODELS</a>
+    </div>
+</section>
+
+    <!-- Sliding Ads Section -->
+    <section class="sliding-ads">
+        <div class="ad-container">
+            <div class="ad">
+                <img src="images/ad-image1.PNG" alt="Ad 1">
+            </div>
+            <div class="ad">
+                <img src="images/ad-image2.jpg" alt="Ad 2">
+            </div>
+            <div class="ad">
+                <img src="images/ad-image3.jpg" alt="Ad 3">
+            </div>
+            <div class="ad">
+                <img src="images/ad-image4.png" alt="Ad 4">
+            </div>
+            <div class="ad">
+                <img src="images/ad-image5.png" alt="Ad 5">
+            </div>
+        </div>
+    </section>
+    
+ <!-- Featured Models Section -->
+<section class="featured-models">
+    <h2>Featured Models</h2>
+    <div class="model-cards">
+        <div class="card">
+            <img src="images/city.png" alt="Model 1">
+            <h3>CITY</h3>
+            <a href="models.html#city-details">Learn More</a>
+        </div>
+        <div class="card">
+            <img src="images/cityhatchback.png" alt="Model 2">
+            <h3>CITY HATCHBACK</h3>
+            <a href="models.html#cityhatchback-details">Learn More</a>
+        </div>
+        <div class="card">
+            <img src="images/civic.png" alt="Model 3">
+            <h3>CIVIC</h3>
+            <a href="models.html#civic-details">Learn More</a>
+        </div>
+        <div class="card">
+            <img src="images/crv.png" alt="Model 4">
+            <h3>CR-V</h3>
+            <a href="models.html#crv-details">Learn More</a>
+        </div>
+        <div class="card">
+            <img src="images/hrv.png" alt="Model 5">
+            <h3>HR-V</h3>
+            <a href="models.html#hrv-details">Learn More</a>
+        </div>
+        <div class="card">
+            <img src="images/wrv.png" alt="Model 6">
+            <h3>WR-V</h3>
+            <a href="models.html#wrv-details">Learn More</a>
+        </div>
+        <div class="card">
+            <img src="images/typer.png" alt="Model 7">
+            <h3>TYPE R</h3>
+            <a href="models.html#typer-details">Learn More</a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+        <p>&copy; Honda Malaysia Sdn. Bhd. | All rights reserved. </p>
+        <div class="contact-info">
+            <p>Contact Us: <a href="mailto:info@honda.com">info@honda.com</a></p>
+        </div>
+
+        <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a> | 
+            <a href="terms.html">Terms of Service</a> | 
+            <a href="index.html">Home</a> | 
+            <a href="models.html">Models</a> |
+            <a href="news.html">News</a> |  
+            <a href="about.html">About Us</a> | 
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="https://facebook.com/honda" target="_blank">
+                <img src="images/facebook-icon.png" alt="Facebook">
+            </a>
+            <a href="https://instagram.com/honda" target="_blank">
+                <img src="images/instagram-icon.png" alt="Instagram">
+            </a>
+            <a href="https://twitter.com/honda" target="_blank">
+                <img src="images/twitter-icon.png" alt="Twitter">
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

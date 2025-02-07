@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda - News</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header with Navigation -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Honda Logo">
+            </a>
+        </div>
+    
+        <!-- Hamburger Icon -->
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">☰</div>
+    
+        <!-- Navigation Menu -->
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+    
+                <li class="dropdown">
+                    <a href="models.html">MODELS <img src="https://www.honda.com.my/img/interface/triangle-down-red.png" alt=""></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#city-details">CITY</a></li>
+                        <li><a href="#cityhatchback-details">CITY HATCHBACK</a></li>
+                        <li><a href="#civic-details">CIVIC</a></li>
+                        <li><a href="#crv-details">CR-V</a></li>
+                        <li><a href="#hrv-details">HR-V</a></li>
+                        <li><a href="#wrv-details">WR-V</a></li>
+                        <li><a href="#typer-details">TYPE R</a></li>
+                    </ul>
+                </li>
+    
+                <li><a href="news.html">NEWS</a></li>
+    
+                <!-- About Us Dropdown -->
+                <li class="dropdown">
+                    <a href="about.html">ABOUT US <img src="https://www.honda.com.my/img/interface/triangle-down-red.png" alt=""></a>
+                    <ul class="dropdown-content">
+                        <li><a href="about.html#founder">THE FOUNDER</a></li>
+                        <li><a href="about.html#history">HISTORY</a></li>
+                        <li><a href="about.html#achievements">ACHIEVEMENTS</a></li>
+                        <li><a href="about.html#awards">AWARDS</a></li>
+                        <li><a href="about.html#technology">OUR TECHNOLOGY</a></li>
+                    </ul>
+                </li>
+    
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    
+        <div class="search">
+            <input type="text" placeholder="Search...">
+        </div>
+    </header>    
+
+    <!-- News Section -->
+    <section class="news">
+        
+        <section class="hero">
+            <div class="hero-overlay"></div> <!-- Added overlay -->
+            <video class="hero-video" autoplay muted loop>
+                <source src="videos/videohonda.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-content">
+                <h1>Latest News and Events</h1>
+                <p>Stay updated with the latest happenings and events from Honda Malaysia.</p>
+            </div>
+        </section>
+        
+        <!-- News Articles List -->
+        <div class="news-articles">
+            <!-- Article 1 -->
+            <div class="news-article">
+                <img src="images/event1.jpg" alt="Event 1">
+                <div class="news-info">
+                    <h2><a>Honda Malaysia Launches New Civic, Featuring Google Built-In</a></h2>
+                    <p class="date">January 9, 2025</p>
+                    <p class="excerpt">Honda Malaysia (or the Company) today officially unveiled the New Civic, marking an exciting step forward in the C‑segment sedan market. This launch introduces advanced technology, including Google Built‑In, bold design updates and the advanced hybrid performance of Honda.</p>
+                    <a href="https://www.honda.com.my/press-release/view/829/honda-malaysia-launches-new-civic-featuring-google-built-in" class="read-more">Read More</a>
+                </div>
+            </div>
+
+            <!-- Article 2 -->
+            <div class="news-article">
+                <img src="images/event2.jpg" alt="Event 2">
+                <div class="news-info">
+                    <h2>Ready, Set, Elevate With The New Civic, Now With Honda SENSING</a></h2>
+                    <p class="date">December 30, 2020</p>
+                    <p class="excerpt">Forget the rest – Honda Malaysia is proud to reveal the latest Honda Civic, featuring Next Generation Advanced Safety Technology, the Honda SENSING*.</p>
+                    <a href="https://www.honda.com.my/withdreams/ready-set-elevate-with-the-new-civic-now-with-honda-sensing/"class="read-more">Read More</a>
+                </div>
+            </div>
+
+            <!-- Article 3 -->
+            <div class="news-article">
+                <img src="images/event3.jpg" alt="Event 3">
+                <div class="news-info">
+                    <h2><a>Honda Malaysia Celebrates In Style By Giving Away 7 Special Edition Cars</a></h2>
+                    <p class="date">April 2, 2021</p>
+                    <p class="excerpt">If you have always dreamt of owning a Honda, here is your chance of a lifetime!</p>
+                    <a href="https://www.honda.com.my/withdreams/honda-malaysia-celebrates-in-style-by-giving-away-7-special-edition-cars/" class="read-more">Read More</a>
+                </div>
+            </div>
+        </div>
+            
+        </div>
+
+    <!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+        <p>&copy; Honda Malaysia Sdn. Bhd. | All rights reserved. </p>
+        <div class="contact-info">
+            <p>Contact Us: <a href="mailto:info@honda.com">info@honda.com</a></p>
+        </div>
+
+        <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a> | 
+            <a href="terms.html">Terms of Service</a> | 
+            <a href="index.html">Home</a> | 
+            <a href="models.html">Models</a> |
+            <a href="news.html">News</a> |  
+            <a href="about.html">About Us</a> | 
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="https://facebook.com/honda" target="_blank">
+                <img src="images/facebook-icon.png" alt="Facebook">
+            </a>
+            <a href="https://instagram.com/honda" target="_blank">
+                <img src="images/instagram-icon.png" alt="Instagram">
+            </a>
+            <a href="https://twitter.com/honda" target="_blank">
+                <img src="images/twitter-icon.png" alt="Twitter">
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

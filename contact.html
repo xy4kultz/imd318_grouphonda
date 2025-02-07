@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header with Navigation -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Honda Logo">
+            </a>
+        </div>
+    
+        <!-- Hamburger Icon -->
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">☰</div>
+    
+        <!-- Navigation Menu -->
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+    
+                <li class="dropdown">
+                    <a href="models.html">MODELS <img src="https://www.honda.com.my/img/interface/triangle-down-red.png" alt=""></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#city-details">CITY</a></li>
+                        <li><a href="#cityhatchback-details">CITY HATCHBACK</a></li>
+                        <li><a href="#civic-details">CIVIC</a></li>
+                        <li><a href="#crv-details">CR-V</a></li>
+                        <li><a href="#hrv-details">HR-V</a></li>
+                        <li><a href="#wrv-details">WR-V</a></li>
+                        <li><a href="#typer-details">TYPE R</a></li>
+                    </ul>
+                </li>
+    
+                <li><a href="news.html">NEWS</a></li>
+    
+                <!-- About Us Dropdown -->
+                <li class="dropdown">
+                    <a href="about.html">ABOUT US <img src="https://www.honda.com.my/img/interface/triangle-down-red.png" alt=""></a>
+                    <ul class="dropdown-content">
+                        <li><a href="about.html#founder">THE FOUNDER</a></li>
+                        <li><a href="about.html#history">HISTORY</a></li>
+                        <li><a href="about.html#achievements">ACHIEVEMENTS</a></li>
+                        <li><a href="about.html#awards">AWARDS</a></li>
+                        <li><a href="about.html#technology">OUR TECHNOLOGY</a></li>
+                    </ul>
+                </li>
+    
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    
+        <div class="search">
+            <input type="text" placeholder="Search...">
+        </div>
+    </header>    
+
+    <!-- Contact Section -->
+    <div class="container">
+        <!-- Contact Form -->
+        <div class="form-container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                
+                <button type="submit">SEND</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+        <p>&copy; Honda Malaysia Sdn. Bhd. | All rights reserved. </p>
+        <div class="contact-info">
+            <p>Contact Us: <a href="mailto:info@honda.com">info@honda.com</a></p>
+        </div>
+
+        <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a> | 
+            <a href="terms.html">Terms of Service</a> | 
+            <a href="index.html">Home</a> | 
+            <a href="models.html">Models</a> |
+            <a href="news.html">News</a> |  
+            <a href="about.html">About Us</a> | 
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="https://facebook.com/honda" target="_blank">
+                <img src="images/facebook-icon.png" alt="Facebook">
+            </a>
+            <a href="https://instagram.com/honda" target="_blank">
+                <img src="images/instagram-icon.png" alt="Instagram">
+            </a>
+            <a href="https://twitter.com/honda" target="_blank">
+                <img src="images/twitter-icon.png" alt="Twitter">
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
